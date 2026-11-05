@@ -1,0 +1,19 @@
+{
+  "name": "encounter-detection",
+  "version": "1.0.0",
+  "description": "Detecção de encontros entre monitorados - Desafio Trainee Tech Spacecom 2027",
+  "private": true,
+  "type": "commonjs",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
